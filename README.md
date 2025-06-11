@@ -1,16 +1,33 @@
-# todolist
+# To-Do List App with Firebase
 
-A new Flutter project.
+## Nama Aplikasi
+**ToDoList**
 
-## Getting Started
+## Judul Project
+**Aplikasi To-Do List dengan Firebase Authentication**
 
-This project is a starting point for a Flutter application.
+## Deskripsi Fungsionalitas
+Aplikasi ini memungkinkan pengguna untuk:
+- **Autentikasi**:
+  - Mendaftar akun baru dengan email/sandi.
+  - Login/logout menggunakan Firebase Auth.
+- **Manajemen Tugas**:
+  - Menambah, mengedit, dan menghapus tugas (CRUD).
+  - Menandai tugas sebagai selesai/belum selesai.
+  - Progress otomatis dalam bentuk persentase.
+- **Sinkronisasi Real-Time**:
+  - Data tersimpan di Cloud Firestore dan update secara real-time.
 
-A few resources to get you started if this is your first Flutter project:
+## Teknologi
+- **Frontend**:
+  - Flutter (Dart)
+  - Paket: `google_fonts`, `fluttertoast`
+- **Backend**:
+  - Firebase Auth (Autentikasi)
+  - Cloud Firestore (Database)
+  - Paket: `firebase_core`, `firebase_auth`, `cloud_firestore`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Cara Menjalankan
+1. Install dependensi:
+   ```bash
+   flutter pub get
